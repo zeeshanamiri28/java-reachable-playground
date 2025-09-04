@@ -2,8 +2,6 @@ name: Run SonarQube with Maven
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
     
 jobs:
   build:
